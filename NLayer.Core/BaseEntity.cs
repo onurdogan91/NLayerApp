@@ -11,6 +11,6 @@ namespace NLayer.Core
         //new anahtar sözcüğü ile oluşturmasın diye abstract class kullanıyoruz...
         public int Id { get; set; }
         public DateTime CreatedDate { get; set; }
-        public DateTime UpdatedDate { get; set; }
+        public DateTime? UpdatedDate { get; set; }
     }
 }
