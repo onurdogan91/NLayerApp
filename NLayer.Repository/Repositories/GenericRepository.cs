@@ -37,32 +37,34 @@ namespace NLayer.Repository.Repositories
 
         public IQueryable<T> GetAll(Expression<Func<T, bool>> expression)
         {
-            throw new NotImplementedException();
+            return _dbSet.AsNoTracking().AsQueryable();
+            //asnotracking dataları memory içine almaz performansı arttırır... kayıtları memoryde tutmaz.
         }
 
-        public Task<T> GetByIdAsync(int id)
+        public async Task<T> GetByIdAsync(int id)
         {
-            throw new NotImplementedException();
+            return await _dbSet.FindAsync(id);
         }
 
         public void Remove(T entity)
         {
-            throw new NotImplementedException();
+            //_context.Entry(entity).State= EntityState.Deleted; alttaki ile aynı
+            _dbSet.Remove(entity);
         }
 
         public void RemoveRange(IEnumerable<T> entities)
         {
-            throw new NotImplementedException();
+            _dbSet.RemoveRange(entities);
         }
 
         public void Update(T entity)
         {
-            throw new NotImplementedException();
+            _dbSet.Update(entity);
         }
 
         public IQueryable<T> Where(Expression<Func<T, bool>> expression)
         {
-            throw new NotImplementedException();
+            return _dbSet.Where(expression);
         }
     }
 }
