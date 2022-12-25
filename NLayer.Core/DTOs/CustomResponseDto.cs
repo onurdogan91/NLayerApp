@@ -35,4 +35,5 @@ namespace NLayer.Core.DTOs
             return new CustomResponseDto<T> { StatusCode = statusCode, Errors = new List<string> { error } };
         }
     }
+    
 }
