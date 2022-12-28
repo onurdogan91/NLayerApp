@@ -68,3 +68,6 @@ C:\Users\onurd\source\repos\NLayerApp\NLayer.API\bin\Debug\net6.0\Humanizer.dll
 C:\Users\onurd\source\repos\NLayerApp\NLayer.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\onurd\source\repos\NLayerApp\NLayer.API\bin\Debug\net6.0\AutoMapper.dll
 C:\Users\onurd\source\repos\NLayerApp\NLayer.API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\onurd\source\repos\NLayerApp\NLayer.API\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\onurd\source\repos\NLayerApp\NLayer.API\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+C:\Users\onurd\source\repos\NLayerApp\NLayer.API\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
