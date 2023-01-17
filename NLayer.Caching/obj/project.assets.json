@@ -710,23 +710,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\onurd\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Guser\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\onurd\\source\\repos\\NLayerApp\\NLayer.Caching\\NLayer.Caching.csproj",
+      "projectUniqueName": "C:\\Users\\Guser\\Source\\Repos\\NLayerApp\\NLayer.Caching\\NLayer.Caching.csproj",
       "projectName": "NLayer.Caching",
-      "projectPath": "C:\\Users\\onurd\\source\\repos\\NLayerApp\\NLayer.Caching\\NLayer.Caching.csproj",
-      "packagesPath": "C:\\Users\\onurd\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\onurd\\source\\repos\\NLayerApp\\NLayer.Caching\\obj\\",
+      "projectPath": "C:\\Users\\Guser\\Source\\Repos\\NLayerApp\\NLayer.Caching\\NLayer.Caching.csproj",
+      "packagesPath": "C:\\Users\\Guser\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Guser\\Source\\Repos\\NLayerApp\\NLayer.Caching\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\onurd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Guser\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -775,7 +771,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
